@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Tabla: </h1>
 
-    <table border="1" cellpadding="10" cellspacing="0">
+    <a href="formulario.html">Formulario</a>
+    <br>
+    <br>
+
+    <table border="1" cellpadding="10" cellspacing="3">
         <tr>
             <th>Campo</th>
             <th>Valor</th>
         </tr>
         <tr>
             <td>Nombre</td>
-            <td></td>
+            <td><input type="text" name="nombre" id="nombre"></td>
         </tr>
         <tr>
             <td>Apellidos</td>
-            <td></td>
+            <td><input type="text" name="apellidos" id="apellidos"></td>
         </tr>
         <tr>
             <td>Teléfono</td>
-            <td></td>
+            <td><input type="tel" name="telefono" id="telefono"></td>
         </tr>
         <tr>
             <td>Email</td>
-            <td></td>
+            <td><input type="email" name="email" id="email"></td>
         </tr>
         <tr>
             <td>Sexo</td>
-            <td></td>
+            <td> <input type="radio" name="sexo" value="masculino"> Masculino
+                <input type="radio" name="sexo" value="femenino"> Femenino
+            </td>
         </tr>
     </table>
+    
+    <br>
+
+    <input type="submit" value="Enviar">
+
 </body>
+
 </html>
